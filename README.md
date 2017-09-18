@@ -23,3 +23,11 @@ vim .git/config
 [remote "origin"]
 	url = https://wangz@github.com/wangz/example.git
 - 再次git push，弹出框输入密码，即可提交
+
+git:
+   重命名文件或目录
+     mv 命令
+ 
+说明：重命名文件或目录（git mv 原文件名新文件名）
+参数：无
+操作：
