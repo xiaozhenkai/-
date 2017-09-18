@@ -1,0 +1,23 @@
+[global]
+pid = /data/lemp/php-5.6.31/var/run/php-fpm.pid
+error_log = /data/lemp/php-5.6.31/var/log/php-fpm.log
+log_level = notice
+
+[www]
+listen = /tmp/sock/php56/www.sock
+listen.backlog = -1
+listen.allowed_clients = 127.0.0.1
+listen.owner = www
+listen.group = www
+listen.mode = 0666
+user = www
+group = www
+pm = dynamic
+pm.max_children = 80
+pm.start_servers = 40
+pm.min_spare_servers = 40
+pm.max_spare_servers = 80
+request_terminate_timeout = 100
+request_slowlog_timeout = 0
+slowlog = var/log/slow.log
+
