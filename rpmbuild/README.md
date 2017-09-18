@@ -12,10 +12,15 @@ mkdir -pv ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
 ```
 
 >BUILD：源代码解压以后放的位置
+
 >RPMS：制作完成后的rpm包存放目录，为特定平台指定子目录（x86_64）
+
 >SOURCES：收集的源文件，源材料，补丁文件等存放位置
+
 >SPECS：存放spec文件，作为制作rpm包的领岗文件，以rpm名.spec
+
 >SRPMS：src格式的rpm包位置 ，既然是src格式的包，就没有平台的概念了
+
 >BuiltRoot：假根，使用install临时安装到这个目录，把这个目录当作根来用的，所以在这个目录下的目录文件，才是真正的目录文件。当打包完成后，在清理阶段，这个目录将被删除
 
 工作车间目录
