@@ -23,7 +23,7 @@ mkdir -pv ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
 rpmbuild --showrc显示所有的宏，以下划线开头，一个下划线：定义环境的使用情况，二个下划线：通常定义的是命令，为什么要定义宏，因为不同的系统，命令的存放位置可能不同，所以通过宏的定义找到命令的真正存放位置
 
 
-##收集源码文件脚本文件
+## 收集源码文件脚本文件
 ```
 cd ~/rpmbuild/SOURCES
 ls
@@ -180,3 +180,7 @@ rm -rf %{buildroot}
 - Initial version
 
 ```
+
+## 编译rpm包
+`rpmbuild -bb php.spec` 制作php rpm二进制包
+`pmbuild -bb php-redis.spec` 制作php-redis rpm二进制包
