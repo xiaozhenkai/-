@@ -20,3 +20,6 @@ https://lwn.net/Articles/250967/
 
 【文章】每个程序员都应该了解的内存知识【第一部分】
 https://www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1
+
+【文章】红帽企业版 Linux 7.4 安全性指南
+https://access.redhat.com/documentation/zh-CN/Red_Hat_Enterprise_Linux/7/html/Security_Guide/chap-Keeping_Your_System_Up-to-Date.html
