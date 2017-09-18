@@ -23,3 +23,6 @@ https://www.oschina.net/translate/what-every-programmer-should-know-about-memory
 
 【文章】红帽企业版 Linux 7.4 安全性指南
 https://access.redhat.com/documentation/zh-CN/Red_Hat_Enterprise_Linux/7/html/Security_Guide/chap-Keeping_Your_System_Up-to-Date.html
+
+【文章】CentOS无缝升级nginx[完整命令及自动升级脚本]
+https://undefinedblog.com/seamlessly-upgrade-nginx-on-centos/
