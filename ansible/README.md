@@ -14,3 +14,9 @@ http://www.21yunwei.com/archives/3384
 
 【文章】devops系列-- 运维利器SaltStalk介绍
 https://zhangchenchen.github.io/2016/11/03/2016-11-3-intro-to-salt/
+
+【文章】What every programmer should know about memory, Part 1
+https://lwn.net/Articles/250967/
+
+【文章】每个程序员都应该了解的内存知识【第一部分】
+https://www.oschina.net/translate/what-every-programmer-should-know-about-memory-part1
