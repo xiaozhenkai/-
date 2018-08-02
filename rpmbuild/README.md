@@ -188,7 +188,7 @@ rm -rf %{buildroot}
 
 ## 编译前
 
-先安装需要的包，不然编译的时候会报错,确保服务器安装了epel-release源，没有的话`yum inistall epel-release`安装完后更新源`yum makecache`
+先安装需要的包，不然编译的时候会报错,确保服务器安装了epel-release源，没有的话`yum install epel-release`安装完后更新源`yum makecache`
 
 `yum install libxml2-devel openssl-devel libcurl-devel libjpeg-turbo-devel libpng-devel libicu-devel openldap-devel libmcrypt mhash mcrypt libiconv`
 
