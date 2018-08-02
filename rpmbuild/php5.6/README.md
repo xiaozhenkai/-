@@ -256,3 +256,5 @@ rm -rf %{buildroot}
 [root@linuxeye.com SPEC]# rpmbuild -bb php.spec 制作php rpm二进制包
 [root@linuxeye.com SPEC]# rpmbuild -bb php-redis.spec 制作php-redis rpm二进制包
 ```
+
+参考： [制作PHP的RPM包教程](https://blog.linuxeye.cn/431.html)
