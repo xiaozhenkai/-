@@ -35,7 +35,10 @@ ls
 php-5.6.31.tar.gz php-fpm.conf.default php.ini-production www.conf.default
 ```
 ##编写SPEC文件
-`vim php.spec`
+```
+cd ~/rpmbuild/SPECS/
+vim php.spec
+```
 内容如下：
 ```
 %define _user www
