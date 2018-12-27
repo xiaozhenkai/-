@@ -73,6 +73,8 @@ chown -R es6:es6 /data/elasticsearch-*
 前台执行
 
 ```
+先切换到es6用户
+su - es6
 cd /data/elasticsearch-6.5.4/bin
 前台启动：
 ./elasticsearch 
